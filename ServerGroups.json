@@ -1,0 +1,231 @@
+[
+	{
+		"GroupName": "TTS",
+		"Servers": [
+			{
+				"ServerName": "l-tts1.tkt.beta.cn6",
+				"Status": "Available",
+				"Username": "",
+				"UsingEndTime": "",
+				"Publishes": [],
+				"GroupName": ""
+			},
+			{
+				"ServerName": "l-tts2.tkt.beta.cn6",
+				"Status": "Using",
+				"Username": "7",
+				"UsingEndTime": "2015-08-17 22:49:59",
+				"Publishes": [],
+				"GroupName": ""
+			},
+			{
+				"ServerName": "l-tts3.tkt.beta.cn6",
+				"Status": "Available",
+				"Username": "",
+				"UsingEndTime": "",
+				"Publishes": [],
+				"GroupName": ""
+			},
+			{
+				"ServerName": "l-tts4.tkt.beta.cn0",
+				"Status": "Available",
+				"Username": "",
+				"UsingEndTime": "",
+				"Publishes": [],
+				"GroupName": ""
+			}
+		]
+	},
+	{
+		"GroupName": "PMC",
+		"Servers": [
+			{
+				"ServerName": "l-pmc1.tkt.beta.cn0",
+				"Status": "Available",
+				"Username": "",
+				"UsingEndTime": "",
+				"Publishes": [],
+				"GroupName": ""
+			},
+			{
+				"ServerName": "l-pmc2.tkt.beta.cn0",
+				"Status": "Available",
+				"Username": "",
+				"UsingEndTime": "",
+				"Publishes": [],
+				"GroupName": ""
+			},
+			{
+				"ServerName": "l-pmc3.tkt.beta.cn0",
+				"Status": "Available",
+				"Username": "",
+				"UsingEndTime": "",
+				"Publishes": [],
+				"GroupName": ""
+			}
+		]
+	},
+	{
+		"GroupName": "MMC",
+		"Servers": [
+			{
+				"ServerName": "l-mmc1.tkt.beta.cn0",
+				"Status": "Available",
+				"Username": "",
+				"UsingEndTime": "",
+				"Publishes": [],
+				"GroupName": ""
+			},
+			{
+				"ServerName": "l-mmc2.tkt.beta.cn0",
+				"Status": "Available",
+				"Username": "",
+				"UsingEndTime": "",
+				"Publishes": [],
+				"GroupName": ""
+			}
+		]
+	},
+	{
+		"GroupName": "Booking",
+		"Servers": [
+			{
+				"ServerName": "l-booking1.tkt.beta.cn0",
+				"Status": "Available",
+				"Username": "",
+				"UsingEndTime": "",
+				"Publishes": [],
+				"GroupName": ""
+			},
+			{
+				"ServerName": "l-booking2.tkt.beta.cn0",
+				"Status": "Available",
+				"Username": "",
+				"UsingEndTime": "",
+				"Publishes": [],
+				"GroupName": ""
+			},
+			{
+				"ServerName": "l-booking3.tkt.beta.cn0",
+				"Status": "Available",
+				"Username": "",
+				"UsingEndTime": "",
+				"Publishes": [],
+				"GroupName": ""
+			}
+		]
+	},
+	{
+		"GroupName": "Pagent",
+		"Servers": [
+			{
+				"ServerName": "l-agent2.tkt.beta.cn6",
+				"Status": "Available",
+				"Username": "",
+				"UsingEndTime": "",
+				"Publishes": [],
+				"GroupName": ""
+			},
+			{
+				"ServerName": "l-agent3.tkt.beta.cn6",
+				"Status": "Available",
+				"Username": "",
+				"UsingEndTime": "",
+				"Publishes": [],
+				"GroupName": ""
+			},
+			{
+				"ServerName": "l-agent4.tkt.beta.cn6",
+				"Status": "Available",
+				"Username": "",
+				"UsingEndTime": "",
+				"Publishes": [],
+				"GroupName": ""
+			},
+			{
+				"ServerName": "l-ttsat1.tkt.beta.cn0",
+				"Status": "Available",
+				"Username": "",
+				"UsingEndTime": "",
+				"Publishes": [],
+				"GroupName": ""
+			}
+		]
+	},
+	{
+		"GroupName": "PMS",
+		"Servers": [
+			{
+				"ServerName": "l-pms1.tkt.beta.cn0",
+				"Status": "Available",
+				"Username": "",
+				"UsingEndTime": "",
+				"Publishes": [],
+				"GroupName": ""
+			}
+		]
+	},
+	{
+		"GroupName": "B2B",
+		"Servers": [
+			{
+				"ServerName": "l-b2b1.tkt.beta.cn0",
+				"Status": "Available",
+				"Username": "",
+				"UsingEndTime": "",
+				"Publishes": [],
+				"GroupName": ""
+			},
+			{
+				"ServerName": "l-b2b2.tkt.beta.cn0",
+				"Status": "Available",
+				"Username": "",
+				"UsingEndTime": "",
+				"Publishes": [],
+				"GroupName": ""
+			}
+		]
+	},
+	{
+		"GroupName": "报表",
+		"Servers": [
+			{
+				"ServerName": "l-settlement1.tkt.beta.cn0",
+				"Status": "Available",
+				"Username": "",
+				"UsingEndTime": "",
+				"Publishes": [],
+				"GroupName": ""
+			},
+			{
+				"ServerName": "l-settlement2.tkt.beta.cn0",
+				"Status": "Available",
+				"Username": "",
+				"UsingEndTime": "",
+				"Publishes": [],
+				"GroupName": ""
+			}
+		]
+	},
+	{
+		"GroupName": "结算",
+		"Servers": [
+			{
+				"ServerName": "l-settlement1.tkt.beta.cn0",
+				"Status": "Available",
+				"Username": "",
+				"UsingEndTime": "",
+				"Publishes": [],
+				"GroupName": ""
+			},
+			{
+				"ServerName": "l-settlement2.tkt.beta.cn0",
+				"Status": "Available",
+				"Username": "",
+				"UsingEndTime": "",
+				"Publishes": [],
+				"GroupName": ""
+			}
+		]
+	}
+]
