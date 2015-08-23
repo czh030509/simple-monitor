@@ -11,7 +11,8 @@ import (
 	"math/rand"
 	"time"
 	"strconv"
-	"github.com/czh030509/simple-monitor/util")
+	"./util"
+)
 
 func main() {
 	fmt.Println("Monitor Service starting...")
