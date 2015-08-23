@@ -7,12 +7,11 @@ import (
 
 	"github.com/gin-gonic/contrib/static"
 	"github.com/gin-gonic/gin"
-	"github.com/xinhuang327/simple-monitor/util"
 
 	"math/rand"
 	"time"
 	"strconv"
-)
+	"github.com/czh030509/simple-monitor/simple-monitor/util")
 
 func main() {
 	fmt.Println("Monitor Service starting...")
