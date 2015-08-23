@@ -14,33 +14,33 @@
 </head>
 
 <body ng-app="monitorApp" ng-controller="mainController" style="text-align:center;">
-    <h1  width="76%">Server Monitor</h1>
+    <h1>Server Monitor</h1>
 
-    <table width="76%" style="margin:0 auto;">
+    <table style="margin:0 auto;">
         <thead>
             <tr>
                 <td width='60px'>Group</td>
-                <td width='1200px' style="white-space:pre" >服务器                                         发布List                                                                                              使用者                                   使用时长（小时）                Status        Operate</td>
+                <td width='1000px' style="white-space:pre" >服务器                                     发布List                                              使用者                        使用时长（小时）         Status        Operate</td>
                </tr>
         </thead>
         <tbody>
         <tr ng-repeat="g in groups" class="group">
             <td class="server-name" width='60px'>{{g.GroupName}}</td>
-            <td width='1200px'>
+            <td width='1000px'>
                 <table>
                     <tbody>
-                        <tr ng-repeat="s in g.Servers" class="{{s.Status}}" width="100%">
-                            <td class="server-name" width='230px'>{{s.ServerName}}</td>
-                            <td width='500px'>
+                        <tr ng-repeat="s in g.Servers" class="{{s.Status}}">
+                            <td class="server-name" width='220px'>{{s.ServerName}}</td>
+                            <td width='300px'>
                                 <a href="{{pub.Link}}" ng-repeat="pub in s.Publishes" class="publish {{pub.Success}}" target=_blank></a>
                             </td>
-                            <td width='150px'>
+                            <td width='160px'>
                                 <input type="text" ng-readonly="s.Status=='Using'" ng-model="s.Username" />
                             </td>
-                            <td width='50px'>
+                            <td width='160px'>
                                 <input type="text"  ng-readonly="s.Status=='Using'" ng-model="s.UsingEndTime" />
                             </td>
-                            <td class="{{s.Status}}" width='50px'>{{s.Status}}</td>
+                            <td class="{{s.Status}}" width='78px'>{{s.Status}}</td>
                             <td width='78px'style="text-align:center;" >
                                 <button ng-click="ChangeStatus(s, g.GroupName)" width='100%'>{{s.Status=='Using'?'释放':'占用'}}</button>
                             </td>

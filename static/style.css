@@ -24,18 +24,13 @@ thead {
 }
 
 td {
-    padding: 0.3rem;
+    padding: 0.2rem;
     border: solid 1px #D6D6D6;
 }
 
 table {
     border-spacing: 0;
 }
-
-
-
-
-
 
 .group.ng-scope {
     padding-bottom: 1rem;
@@ -74,6 +69,7 @@ td.Using {
 
 input[type="text"] {
     font-size: 1rem;
+    width: 160px;
 }
 
 tr.Using input[type="text"] {

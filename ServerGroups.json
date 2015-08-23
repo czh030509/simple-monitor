@@ -4,17 +4,17 @@
 		"Servers": [
 			{
 				"ServerName": "l-tts1.tkt.beta.cn6",
-				"Status": "Available",
-				"Username": "",
-				"UsingEndTime": "",
+				"Status": "Using",
+				"Username": "zaihua",
+				"UsingEndTime": "2015-08-19 12:03:10",
 				"Publishes": [],
 				"GroupName": ""
 			},
 			{
 				"ServerName": "l-tts2.tkt.beta.cn6",
-				"Status": "Using",
-				"Username": "7",
-				"UsingEndTime": "2015-08-17 22:49:59",
+				"Status": "Available",
+				"Username": "",
+				"UsingEndTime": "",
 				"Publishes": [],
 				"GroupName": ""
 			},
